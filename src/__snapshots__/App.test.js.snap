@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`change language 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    Form
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Name:
+      <input
+        name="name"
+        type="text"
+      />
+    </label>
+    <br />
+    <label>
+      Pekerjaan:
+      <input
+        name="pekerjaan"
+        type="text"
+      />
+    </label>
+    <br />
+    <label>
+      Jenis Kelamin:
+      <br />
+      <label>
+        Jenis Kelamin:
+        <br />
+        <input
+          name="gender"
+          type="radio"
+          value="male"
+        />
+        <label>
+          Male
+        </label>
+        <br />
+        <input
+          name="gender"
+          type="radio"
+          value="female"
+        />
+        <label>
+          Female
+        </label>
+      </label>
+    </label>
+    <br />
+    <label>
+      Alamat:
+      <textarea
+        name="alamat"
+      />
+    </label>
+    <br />
+    <label>
+      Makanan:
+      <select
+        multiple={true}
+        onChange={[Function]}
+      >
+        <option
+          value="pizza"
+        >
+          Pizza
+        </option>
+        <option
+          value="burger"
+        >
+          Burger
+        </option>
+        <option
+          value="cilok"
+        >
+          Cilok
+        </option>
+      </select>
+    </label>
+    <br />
+    <label>
+      Tanggungan:
+      <input
+        name="tanggungan"
+        type="number"
+      />
+    </label>
+    <br />
+    <label>
+      File:
+      <input
+        name="file"
+        type="file"
+      />
+    </label>
+    <br />
+    <label>
+      Apakah anda MAUU?
+      <input
+        name="checkbox"
+        type="checkbox"
+      />
+    </label>
+    <br />
+    <button
+      type="submit"
+    >
+      SUBMIT
+    </button>
+  </form>
+</div>
+`;
