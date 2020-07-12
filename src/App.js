@@ -57,34 +57,36 @@ function App() {
             </Navbar>
           </header>
 
-          <Switch style={{minHeight: 1000}}>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/form">
-              <Form />
-            </Route>
-            <Route path="/router-dom">
-              <Users />
-            </Route>
-            <Route path="/list-keys">
-              <ListKeys />
-            </Route>
-            <Route path="/lifting-state">
-              <LiftingState />
-            </Route>
-            <Route path="/redux">
-              <Redux />
-            </Route>
-            <Route path="/composing-extracting">
-              <ComposingExtracting />
-            </Route>
-          </Switch>
+          <div className="App">
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route path="/form">
+                <Form />
+              </Route>
+              <Route path="/router-dom">
+                <Users />
+              </Route>
+              <Route path="/list-keys">
+                <ListKeys />
+              </Route>
+              <Route path="/lifting-state">
+                <LiftingState />
+              </Route>
+              <Route path="/redux">
+                <Redux />
+              </Route>
+              <Route path="/composing-extracting">
+                <ComposingExtracting />
+              </Route>
+            </Switch>
+          </div>
         </div>
       </Router>
 
       <footer className='footer mt-auto py-3 bg-dark text-white'>
-        <div className='container'>Place sticky footer content here.</div>
+        <div className='container'>Footer</div>
       </footer>
     </>
   );
